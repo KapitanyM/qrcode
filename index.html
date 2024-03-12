@@ -10,6 +10,7 @@
     <label for="text-input">Adja meg az információt:</label>
     <input type="text" id="text-input" placeholder="Pl.: https://example.com">
     <button onclick="generateQRCode()">QR kód generálása</button>
+    <button onclick="scanQRCode()">QR kód beolvasása</button>
     <div id="qrcode"></div>
 
     <!-- QR Code Library -->
@@ -17,16 +18,6 @@
 	
 	<!-- jsQR Library -->
 	<script src="https://cdn.jsdelivr.net/npm/jsqr@1.0.2/dist/jsQR.js"></script>
-	
-	<!-- ... (a többi HTML kód) ... -->
-
-	<button onclick="generateQRCode()">QR kód generálása</button>
-	<button onclick="scanQRCode()">QR kód beolvasása</button>
-	<div id="qrcode"></div>
-
-	<!-- ... (a többi HTML kód) ... -->
-
-
     
     <!-- Custom JavaScript -->
     <script src="app.js"></script>
